@@ -13,7 +13,7 @@ docker run --rm \
       -v /etc/passwd:/etc/passwd:ro \
       -v /etc/group:/etc/group:ro \
       -v ~/.composer:/composer \
-      roquie/composer-parallel install -n --no-progress
+      roquie/composer-parallel install -n -q
 ```
 
 ## Build & Push
